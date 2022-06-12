@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".Location">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!!!"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+
+        />
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="300dp"
+        android:id="@+id/coffee_image"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You Can Follow The Map"
+        android:textSize="24dp"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
